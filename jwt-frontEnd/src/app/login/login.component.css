@@ -1,0 +1,8 @@
+.rightspace {
+    margin-right: 5rem;
+}
+
+.containercenter {
+    display: flex;
+    justify-content: center;
+}

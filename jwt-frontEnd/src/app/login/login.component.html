@@ -1,0 +1,18 @@
+<div style="text-align: center;">
+    <h1>Login</h1>
+</div>
+<hr>
+<form class="container">
+    <div class="form-group">
+        <label for="username">Username:</label>
+        <input type="text" class="form-control" name="username" [(ngModel)]="userData.username">
+    </div>
+    <div class="form-group">
+        <label for="password">Password:</label>
+        <input type="password" class="form-control" name="password" [(ngModel)]="userData.password">
+    </div>
+    <div class="containercenter">
+        <button class="btn btn-primary rightspace" (click)="login()">Login</button>
+        <button class="btn btn-success" routerLink="/signup">SignUp</button>
+    </div>
+</form>
